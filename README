@@ -1,5 +1,5 @@
 R Ballew, 26-Sep-2018
-This is a simple Raspberry Pi weather station with a temperature and relative humidity IC. 
+This is a simple Raspberry Pi weather station with a temperature and relative humidity IC (DHT 22). 
 
 It uses gnuplot to plot the temperature and humidity data for the last 24 hours. 
 
