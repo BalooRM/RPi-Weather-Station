@@ -22,7 +22,7 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 #
 # m h  dom mon dow   command
-0 * * * * python /home/pi/weather/dht22webavg.py >> /home/pi/weather/weatherweb.log
-15 * * * * python /home/pi/weather/dht22webavg.py >> /home/pi/weather/weatherweb.log
-30 * * * * python /home/pi/weather/dht22webavg.py >> /home/pi/weather/weatherweb.log
-45 * * * * python /home/pi/weather/dht22webavg.py >> /home/pi/weather/weatherweb.log
+0 * * * * python /home/pi/weather/readsensoravg.py >> /home/pi/weather/weatherweb.csv
+15 * * * * python /home/pi/weather/readsensoravg.py >> /home/pi/weather/weatherweb.csv
+30 * * * * python /home/pi/weather/readsensoravg.py >> /home/pi/weather/weatherweb.csv
+45 * * * * python /home/pi/weather/readsensoravg.py >> /home/pi/weather/weatherweb.csv
