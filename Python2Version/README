@@ -1,0 +1,7 @@
+R Ballew, 26-Sep-2018
+This is a simple Raspberry Pi weather station with a temperature and relative humidity IC (DHT 22). 
+
+It uses gnuplot to plot the temperature and humidity data for the last 24 hours. 
+
+It uses crontab to read temperature and humidity every 15 minutes and redirect output to a log file. 
+
